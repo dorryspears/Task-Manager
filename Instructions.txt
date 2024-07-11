@@ -1,0 +1,37 @@
+Lesson 1: Setting Up the Project Environment
+
+Step 1: Install Python
+Ensure Python is installed on your system. You can download it from https://www.python.org/downloads/
+Make sure that you are using python version 3 or later.
+
+Step 2: Create a Virtual Environment
+
+Option 1: Using venv Open your terminal or command prompt and navigate to your project directory.
+Run the following command to create a virtual environment named 'venv':
+python -m venv venv
+
+Option 2: Using conda
+If you're using Anaconda, open Anaconda Prompt and navigate to your project directory.
+Run the following command to create a virtual environment named 'myenv':
+conda create --name myenv
+
+Step 3: Activate the Virtual Environment
+Option 1: Using venv
+On Windows:
+venv\Scripts\activate
+On macOS/Linux:
+source venv/bin/activate
+
+Option 2: Using conda
+Activate the environment using the following command:
+conda activate myenv
+
+Step 4: Install Dependencies
+Use pip to install necessary dependencies.
+For example, to install pytest, run the following command:
+pip install pytest
+
+Step 6: Test Setup
+Ensure everything is set up correctly by running the simple 'Hello World' program that is in main.py using
+the following command.
+python main.py
